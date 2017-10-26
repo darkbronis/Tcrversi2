@@ -277,24 +277,6 @@ def bot(op):
                 	cl.inviteIntoGroup(msg.to,[midd])
             
             
-            
-            elif msg.text in ["B Cancel","Cancel dong","B cancel"]:
-		if msg.from_ in admin:
-                	if msg.toType == 2:
-                    		group = ki.getGroup(msg.to)
-                    	if group.invitee is not None:
-                        	gInviMids = [contact.mid for contact in group.invitee]
-                        	ki.cancelGroupInvitation(msg.to, gInviMids)
-                    	else:
-                        	if wait["lang"] == "JP":
-                            		cl.sendText(msg.to,"No invites👈")
-                        	else:
-                            		cl.sendText(msg.to,"Invite people inside not👈")
-                	else:
-                    		if wait["lang"] == "JP":
-                        		cl.sendText(msg.to,"Tidak ada undangan")
-                    	else:
-                        	cl.sendText(msg.to,"invitan tidak ada")
 
             elif msg.text in ["Cancel","cancel"]:
 		if msg.from_ in admin:
@@ -303,11 +285,11 @@ def bot(op):
                     		if group.invitee is not None:
                         		gInviMids = [contact.mid for contact in group.invitee]
                         		cl.cancelGroupInvitation(msg.to, gInviMids)
-                    	else:
-                        	if wait["lang"] == "JP":
-                            		cl.sendText(msg.to,"No invites👈")
-                           else:
-                            	cl.sendText(msg.to,"Invite people inside not👈")
+                    		else:
+                        		if wait["lang"] == "JP":
+                            			cl.sendText(msg.to,"No invites👈")
+                           		else:
+                            			cl.sendText(msg.to,"Invite people inside not👈")
                	 else:
                     	if wait["lang"] == "JP":
                         	cl.sendText(msg.to,"Tidak ada undangan👈")
