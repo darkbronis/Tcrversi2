@@ -439,12 +439,12 @@ def bot(op):
                         		cl.sendText(msg.to,"Sudah On")
                     		else:
                         		cl.sendText(msg.to,"It is already open")
-                		else:
-                    			wait["contact"] = True
-                    			if wait["lang"] == "JP":
-                        			cl.sendText(msg.to,"already open 👈")
-                    			else:
-                        			cl.sendText(msg.to,"It is already open 􀜁􀇔􏿿")
+                	else:
+                    		wait["contact"] = True
+                    		if wait["lang"] == "JP":
+                        		cl.sendText(msg.to,"already open 👈")
+                    		else:
+                        		cl.sendText(msg.to,"It is already open 􀜁􀇔􏿿")
             elif msg.text.lower() == 'contact off':
 		if msg.from_ in admin:
                 	if wait["contact"] == False:
