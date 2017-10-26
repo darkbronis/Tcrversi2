@@ -616,11 +616,11 @@ def bot(op):
                             			cl.sendText(msg.to,strnum + "Kelompok berikut yang diundang akan ditolak secara otomatis👈")
                           		else:
                             			cl.sendText(msg.to,strnum + "The team declined to create the following automatic invitation")
-                			except:
-                    				if wait["lang"] == "JP":
-                        				cl.sendText(msg.to,"Nilai tidak benar👈")
-                    				else:
-                        				cl.sendText(msg.to,"Weird value🛡")
+                	except:
+                    		if wait["lang"] == "JP":
+                        		cl.sendText(msg.to,"Nilai tidak benar👈")
+                    		else:
+                        		cl.sendText(msg.to,"Weird value🛡")
             elif msg.text in ["Auto leave on","Auto leave: on"]:
 		if msg.from_ in admin:
                 	if wait["leaveRoom"] == True:
