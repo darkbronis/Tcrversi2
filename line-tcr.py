@@ -319,15 +319,15 @@ def bot(op):
                     		group = cl.getGroup(msg.to)
                     		group.preventJoinByTicket = True
                     		cl.updateGroup(group)
-                    if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"URL close ô€¨👈")
-                    else:
-                        cl.sendText(msg.to,"URL close ô€¨👈")
-                else:
-                    if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"It can not be used outside the group  👈")
-                    else:
-                        cl.sendText(msg.to,"Can not be used for groups other than ô€œ")
+                    		if wait["lang"] == "JP":
+                        		cl.sendText(msg.to,"URL close ô€¨👈")
+                    		else:
+                        		cl.sendText(msg.to,"URL close ô€¨👈")
+                	else:
+                    		if wait["lang"] == "JP":
+                        		cl.sendText(msg.to,"It can not be used outside the group  👈")
+                    		else:
+                        		cl.sendText(msg.to,"Can not be used for groups other than ô€œ")
             elif "Ginfo" == msg.text:
 		if msg.from_ in admin:
                 	ginfo = cl.getGroup(msg.to)
