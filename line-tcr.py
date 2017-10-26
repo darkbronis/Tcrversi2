@@ -262,14 +262,7 @@ def bot(op):
                     cl.sendText(msg.to,helpMessage)
                 else:
                     cl.sendText(msg.to,helpMessage)
-            elif ("Gn:" in msg.text):
-		if msg.from_ in admin:
-                if msg.toType == 2:
-                    group = cl.getGroup(msg.to)
-                    group.name = msg.text.replace("Gn:","")
-                    cl.updateGroup(group)
-                else:
-                    cl.sendText(msg.to,"Hal ini tidak dapat digunakan di luar kelompok👈")
+            
             elif ("Gn " in msg.text):
 		if msg.from_ in admin:
            	    if msg.toType == 2:
