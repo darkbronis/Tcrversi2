@@ -267,7 +267,6 @@ def bot(op):
                     cl.sendText(msg.to,helpMessage)
             
             elif "Kick:" in msg.text:
-		if msg.from_ in admin:
                 midd = msg.text.replace("Kick:","")
                 cl.kickoutFromGroup(msg.to,[midd])
             elif "Invite:" in msg.text:
