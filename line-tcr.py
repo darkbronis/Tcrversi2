@@ -270,76 +270,13 @@ def bot(op):
                 midd = msg.text.replace("Kick:","")
                 cl.kickoutFromGroup(msg.to,[midd])
             elif "Invite:" in msg.text:
-		if msg.from_ in admin:
                 midd = msg.text.replace("Invite:","")
                 cl.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
-            elif "Mabot" == msg.text:
-		if msg.from_ in admin:
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': kimid}
-                cl.sendMessage(msg) 
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki2mid}
-                cl.sendMessage(msg) 
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki3mid}
-                cl.sendMessage(msg) 
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki4mid}
-                cl.sendMessage(msg)
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki5mid}
-                cl.sendMessage(msg) 
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki6mid}
-                cl.sendMessage(msg)
             
-            elif msg.text in ["Bot1 Gift","Bot1 gift"]:
-		if msg.from_ in admin:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '2'}
-                msg.text = None
-                ki.sendMessage(msg)
-            elif msg.text in ["I Gift","i gift"]:
-		if msg.from_ in admin:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '3'}
-                msg.text = None
-                cl.sendMessage(msg)
-
-            elif msg.text in ["Bot2 Gift","Bot2 gift"]:
-		if msg.from_ in admin:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '3'}
-                msg.text = None
-                ki2.sendMessage(msg)
-
-            elif msg.text in ["Bot3 Gift","Bot3 gift"]:
-		if msg.from_ in admin:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '4'}
-                msg.text = None
-                ki3.sendMessage(msg)
-            elif msg.text in ["Bot4 Gift","Bot4 gift"]:
-		if msg.from_ in admin:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '5'}
-                msg.text = None
-                ki4.sendMessage(msg)
+            
             
             elif msg.text in ["B Cancel","Cancel dong","B cancel"]:
-		if msg.from_ in admin:
                 if msg.toType == 2:
                     group = ki.getGroup(msg.to)
                     if group.invitee is not None:
@@ -358,21 +295,21 @@ def bot(op):
 
             elif msg.text in ["Cancel","cancel"]:
 		if msg.from_ in admin:
-                if msg.toType == 2:
-                    group = cl.getGroup(msg.to)
-                    if group.invitee is not None:
-                        gInviMids = [contact.mid for contact in group.invitee]
-                        cl.cancelGroupInvitation(msg.to, gInviMids)
-                    else:
-                        if wait["lang"] == "JP":
-                            cl.sendText(msg.to,"No invites👈")
-                        else:
-                            cl.sendText(msg.to,"Invite people inside not👈")
-                else:
-                    if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Tidak ada undangan👈")
-                    else:
-                        cl.sendText(msg.to,"invitan tidak ada")
+                	if msg.toType == 2:
+                    		group = cl.getGroup(msg.to)
+                    		if group.invitee is not None:
+                        		gInviMids = [contact.mid for contact in group.invitee]
+                        		cl.cancelGroupInvitation(msg.to, gInviMids)
+                    	else:
+                        	if wait["lang"] == "JP":
+                            	cl.sendText(msg.to,"No invites👈")
+                           else:
+                            	cl.sendText(msg.to,"Invite people inside not👈")
+               	 else:
+                    	if wait["lang"] == "JP":
+                        	cl.sendText(msg.to,"Tidak ada undangan👈")
+                    	else:
+                        	cl.sendText(msg.to,"invitan tidak ada")
             #elif "gurl" == msg.text:
                 #print cl.getGroup(msg.to)
                 ##cl.sendMessage(msg)
