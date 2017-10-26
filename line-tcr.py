@@ -524,15 +524,14 @@ def bot(op):
                     		else:
                         		cl.sendText(msg.to,"It is already On ô€¨")
             elif msg.text.lower() == 'blocklist':
-		if msg.from_ in admin:
                 	blockedlist = cl.getBlockedContactIds()
                 	cl.sendText(msg.to, "Please wait...")
                 	kontak = cl.getContacts(blockedlist)
                 	num=1
                 	msgs="User Blocked List\n"
                 	for ids in kontak:
-                    	msgs+="\n%i. %s" % (num, ids.displayName)
-                    	num=(num+1)
+                    		msgs+="\n%i. %s" % (num, ids.displayName)
+                    		num=(num+1)
                 	msgs+="\n\nTotal %i blocked user(s)" % len(kontak)
                 	cl.sendText(msg.to, msgs)
             elif msg.text.lower() == 'auto join off':
