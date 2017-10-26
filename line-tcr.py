@@ -306,13 +306,13 @@ def bot(op):
                     		cl.updateGroup(group)
                     		if wait["lang"] == "JP":
                         		cl.sendText(msg.to,"URL open ô€¨ô€„Œ")
-                    	else:
-                       		 cl.sendText(msg.to,"URL open ô€¨ô€„Œ")
+                    		else:
+                       		 	cl.sendText(msg.to,"URL open ô€¨ô€„Œ")
                 	else:
                     		if wait["lang"] == "JP":
                         		cl.sendText(msg.to,"It can not be used outside the group ô€œô€„‰👈")
-                    	else:
-                        	cl.sendText(msg.to,"Can not be used for groups other than ô€œô€„‰")
+                    		else:
+                        		cl.sendText(msg.to,"Can not be used for groups other than ô€œô€„‰")
             elif msg.text in ["Link off"]:
 		if msg.from_ in admin:
                 	if msg.toType == 2:
