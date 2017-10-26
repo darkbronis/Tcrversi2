@@ -667,12 +667,12 @@ def bot(op):
                         		cl.sendText(msg.to,"Done👈􀜁􀇔􏿿")
                    		 else:
                         		cl.sendText(msg.to,"It is already turned off 􀜁􀇔􏿿👈")
-                		 else:
-                    			wait["timeline"] = False
-                    			if wait["lang"] == "JP":
-                        			cl.sendText(msg.to,"Off👈")
-                    			else:
-                        			cl.sendText(msg.to,"Off👈")
+                	else:
+                    		wait["timeline"] = False
+                    		if wait["lang"] == "JP":
+                        		cl.sendText(msg.to,"Off👈")
+                    		else:
+                        		cl.sendText(msg.to,"Off👈")
             elif msg.text.lower() == 'status':
 		if msg.from_ in admin:
                 	md = ""
