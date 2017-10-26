@@ -290,11 +290,11 @@ def bot(op):
                             			cl.sendText(msg.to,"No invites👈")
                            		else:
                             			cl.sendText(msg.to,"Invite people inside not👈")
-               	 else:
-                    	if wait["lang"] == "JP":
-                        	cl.sendText(msg.to,"Tidak ada undangan👈")
-                    	else:
-                        	cl.sendText(msg.to,"invitan tidak ada")
+               	 	else:
+                    		if wait["lang"] == "JP":
+                        		cl.sendText(msg.to,"Tidak ada undangan👈")
+                    		else:
+                        		cl.sendText(msg.to,"invitan tidak ada")
             #elif "gurl" == msg.text:
                 #print cl.getGroup(msg.to)
                 ##cl.sendMessage(msg)
