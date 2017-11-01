@@ -21,80 +21,78 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""        =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅]=====
 
-􀜁􀇔􏿿 [Id]
-􀜁􀇔􏿿 [Mid]
-􀜁􀇔􏿿 [Me] 
-􀜁􀇔􏿿 [TL 「Text」
-􀜁􀇔􏿿 [MyName]
-􀜁􀇔􏿿 [I Gift]
-􀜁􀇔􏿿 [Mid 「mid」
-􀜁􀇔􏿿 [Group id]
-􀜁􀇔􏿿 [Group cancel]
-􀜁􀇔􏿿 [Tagall]
-􀜁􀇔􏿿 [แอบ]
-􀜁􀇔􏿿 [ส่อง]
-􀜁􀇔􏿿 [album 「id」]
-􀜁􀇔􏿿 [Hapus album 「id」
-􀜁􀇔􏿿 [Contact on] 
-􀜁􀇔􏿿 [Contact off] 
-􀜁􀇔􏿿 [Auto join on] 
-􀜁􀇔􏿿 [Auto join off] 
-􀜁􀇔􏿿 [Cancelall]
-􀜁􀇔􏿿 [Cleanse]
-􀜁􀇔􏿿 [Auto leave on] 
-􀜁􀇔􏿿 [Auto leave off]
-􀜁􀇔􏿿 [Auto add on/off] 
-􀜁􀇔􏿿 [Jam on]
-􀜁􀇔􏿿 [Jam off]
-􀜁􀇔􏿿 [Jam say]
-􀜁􀇔􏿿 [Up]
-􀜁􀇔􏿿 [Ban:on] 
-􀜁􀇔􏿿 [Unban:on]
-􀜁􀇔􏿿 [Banlist]
-􀜁􀇔􏿿 [Com on]
-􀜁􀇔􏿿 [Com set]
-􀜁􀇔􏿿 [Mcheck] 
-􀜁􀇔􏿿 [Message Confirmation] 
-􀜁􀇔􏿿 [Mybio: 「Isi Bio」]  
-􀜁􀇔􏿿 [Allbio: 「Isi Bio bot」] 
+♜♜♜[Id]
+♜♜♜[Mid]
+♜♜♜[Me] 
+♜♜♜[TL 「Text」
+♜♜♜[MyName]
+♜♜♜[I Gift]
+♜♜♜[Mid 「mid」
+♜♜♜[Group id]
+♜♜♜[Group cancel]
+♜♜♜[Tagall]
+♜♜♜[แอบ]
+♜♜♜[ส่อง]
+♜♜♜[album 「id」]
+♜♜♜[Hapus album 「id」
+♜♜♜[Contact on] 
+♜♜♜[Contact off] 
+♜♜♜[Auto join on] 
+♜♜♜[Auto join off] 
+♜♜♜[Cancelall]
+♜♜♜[Cleanse]
+♜♜♜[Auto leave on] 
+♜♜♜[Auto leave off]
+♜♜♜[Auto add on/off] 
+♜♜♜[Jam on]
+♜♜♜[Jam off]
+♜♜♜[Jam say]
+♜♜♜[Up]
+♜♜♜[Ban:on] 
+♜♜♜[Unban:on]
+♜♜♜[Banlist]
+♜♜♜[Com on]
+♜♜♜[Com set]
+♜♜♜[Mcheck] 
+♜♜♜[Message Confirmation] 
+♜♜♜[Mybio: 「Isi Bio」]  
+♜♜♜[Allbio: 「Isi Bio bot」] 
   
            [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅]
+	   (Only Owner Or Admin)
 
-􀜁􀇔􏿿 [Link on]
-􀜁􀇔􏿿 [Link off] 
-􀜁􀇔􏿿 [Invite「mid」] 
-􀜁􀇔􏿿 [Kmid: Kick by mid] 
-􀜁􀇔􏿿 [Ginfo] 
-􀜁􀇔􏿿 [Cancel]
-􀜁􀇔􏿿 [Backup]
-􀜁􀇔􏿿 [Gn 「Nama grup」
-􀜁􀇔􏿿 [Gurl]
-􀜁􀇔􏿿 [gurl「kelompok ID
-􀜁􀇔􏿿 [Nk「nama」]
-􀜁􀇔􏿿 [NK:]
-􀜁􀇔􏿿 [Ban:]
-􀜁􀇔􏿿 [Unban:]
-􀜁􀇔􏿿 [Protect on]
-􀜁􀇔􏿿 [qrprotect on/off]
-􀜁􀇔􏿿 [Inviteprotect on]
-􀜁􀇔􏿿 [Cancelprotect on]
-􀜁􀇔􏿿 [Staff add/remove @]
+♔♔♔[Link on]
+♔♔♔[Link off] 
+♔♔♔[Invite「mid」] 
+♔♔♔[Kmid: Kick by mid] 
+♔♔♔[Ginfo] 
+♔♔♔[Cancel]
+♔♔♔[Backup]
+♔♔♔[Gn 「Nama grup」
+♔♔♔[Gurl]
+♔♔♔[gurl「kelompok ID
+♔♔♔[Nk「nama」]
+♔♔♔[NK:]
+♔♔♔[Ban:]
+♔♔♔[Unban:]
+♔♔♔[Protect on]
+♔♔♔[qrprotect on/off]
+♔♔♔[Inviteprotect on]
+♔♔♔[Cancelprotect on]
+♔♔♔[Staff add/remove @]
 
 
-            􀜁􀇔􏿿 Protect 􀜁􀇔􏿿
+            ⚔ ⚔ ⚔  Protect ⚔ ⚔ ⚔ 
 
-􀜁􀇔􏿿 Kb all
-􀜁􀇔􏿿 Kb Key
-􀜁􀇔􏿿 Kb1-6 in
-􀜁􀇔􏿿 Kb1-6 bye
-􀜁􀇔􏿿 Respons
-􀜁􀇔􏿿 Bye all        
+♞♞♞Espada
+♞♞♞Espada key
+♞♞♞Absen
+♞♞♞Bubar        
   
-            ✯==== Creator ====✯
+            ==== Creator ====
 	
-		http://line.me/ti/p/~0647706747
+		http://line.me/ti/p/~khalik02
    
-	        ⋆⋆[Selfbot Thailand]⋆⋆
 """
 helo=""
 
@@ -104,7 +102,7 @@ Amid = kk.getProfile().mid
 Bmid = ki.getProfile().mid
 Cmid = kc.getProfile().mid
 Bots = [mid,Amid,Bmid,Cmid,]
-admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+admin = ["ufdb348d53532a57228f045ecfaa00f8d","ue5060e54a4ed380dcafd0a2213592ad0","ua044c625da53442ff1040e30bfb1ee28","u93c7c5d46bc99b92c09faede05b7e8b6","u6660a5ab23e58650e107243d706ae727","ua7ab78360d15bb06bd61f4311ffc078d"]
 staff = [""]
 adminMID = [""]
 
@@ -115,9 +113,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"Owner. Nhu : ID:0647706747",
+    'message':"Owner. Nhu : ID:khalik02",
     "lang":"JP",
-    "comment":"Owner. Nhu : ID:0647706747",
+    "comment":"Owner. Nhu : ID:khalik02",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -184,7 +182,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u1b3ce3c7bfbbc5f4b5f2f6ded16ba3a5":
+                if msg.from_ == "ufdb348d53532a57228f045ecfaa00f8d":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -205,12 +203,12 @@ def bot(op):
             if msg.contentType == 13:
                 if wait["wblack"] == True:
                     if msg.contentMetadata["mid"] in wait["commentBlack"]:
-                        cl.sendText(msg.to,"sudah masuk daftar hitam👈")
+                        cl.sendText(msg.to,"Already ☑")
                         wait["wblack"] = False
                     else:
                         wait["commentBlack"][msg.contentMetadata["mid"]] = True
                         wait["wblack"] = False
-                        cl.sendText(msg.to,"Itu tidak berkomentar👈")
+                        cl.sendText(msg.to,"decided not to comment")
                 elif wait["dblack"] == True:
                     if msg.contentMetadata["mid"] in wait["commentBlack"]:
                         del wait["commentBlack"][msg.contentMetadata["mid"]]
@@ -218,23 +216,23 @@ def bot(op):
                         wait["dblack"] = False
                     else:
                         wait["dblack"] = False
-                        cl.sendText(msg.to,"Tidak ada dalam daftar hitam👈")
+                        cl.sendText(msg.to,"Tidak ada dalam daftar hitam ✘")
                 elif wait["wblacklist"] == True:
                     if msg.contentMetadata["mid"] in wait["blacklist"]:
-                        cl.sendText(msg.to,"sudah masuk daftar hitam")
+                        cl.sendText(msg.to,"Already ✓")
                         wait["wblacklist"] = False
                     else:
                         wait["blacklist"][msg.contentMetadata["mid"]] = True
                         wait["wblacklist"] = False
-                        cl.sendText(msg.to,"Done👈")
+                        cl.sendText(msg.to,"Done")
                 elif wait["dblacklist"] == True:
                     if msg.contentMetadata["mid"] in wait["blacklist"]:
                         del wait["blacklist"][msg.contentMetadata["mid"]]
-                        cl.sendText(msg.to,"Done👈")
+                        cl.sendText(msg.to,"Done")
                         wait["dblacklist"] = False
                     else:
                         wait["dblacklist"] = False
-                        cl.sendText(msg.to,"Done👈")
+                        cl.sendText(msg.to,"Done")
                 elif wait["contact"] == True:
                     msg.contentType = 0
                     cl.sendText(msg.to,msg.contentMetadata["mid"])
@@ -263,50 +261,56 @@ def bot(op):
             elif msg.text is None:
                 return
             elif msg.text.lower() == 'help':
-                if wait["lang"] == "JP":
-                    cl.sendText(msg.to,helpMessage)
-                else:
-                    cl.sendText(msg.to,helpMessage)
+		if msg.from_ in admin:
+                	if wait["lang"] == "JP":
+                    		cl.sendText(msg.to,helpMessage)
+                	else:
+                    		cl.sendText(msg.to,helpMessage)
             elif ("Gn:" in msg.text):
-                if msg.toType == 2:
-                    group = cl.getGroup(msg.to)
-                    group.name = msg.text.replace("Gn:","")
-                    ki.updateGroup(group)
-                else:
-                    cl.sendText(msg.to,"Hal ini tidak dapat digunakan di luar kelompok👈")
+		if msg.from_ in admin:
+                	if msg.toType == 2:
+                    		group = cl.getGroup(msg.to)
+                    		group.name = msg.text.replace("Gn:","")
+                    		ki.updateGroup(group)
+                	else:
+                    		cl.sendText(msg.to,"It can't be used besides the group ☹")
             elif ("Gn " in msg.text):
-                if msg.toType == 2:
-                    group = cl.getGroup(msg.to)
-                    group.name = msg.text.replace("Gn ","")
-                    cl.updateGroup(group)
-                else:
-                    cl.sendText(msg.to,"Can not be used for groups other than")
+		if msg.from_ in admin:
+                	if msg.toType == 2:
+                    		group = cl.getGroup(msg.to)
+                    		group.name = msg.text.replace("Gn ","")
+                    		cl.updateGroup(group)
+                	else:
+                    		cl.sendText(msg.to,"Can not be used for groups other than ☹")
             elif "Kick:" in msg.text:
-                midd = msg.text.replace("Kick:","")
-                cl.kickoutFromGroup(msg.to,[midd])
+		if msg.from_ in admin:
+                	midd = msg.text.replace("Kick:","")
+                	cl.kickoutFromGroup(msg.to,[midd])
             elif "Invite:" in msg.text:
-                midd = msg.text.replace("Invite:","")
-                cl.findAndAddContactsByMid(midd)
-                cl.inviteIntoGroup(msg.to,[midd])
-            elif "Mabot" == msg.text:
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': kimid}
-                cl.sendMessage(msg) 
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki2mid}
-                cl.sendMessage(msg) 
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki3mid}
-                cl.sendMessage(msg) 
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki4mid}
-                cl.sendMessage(msg)
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki5mid}
-                cl.sendMessage(msg) 
-                msg.contentType = 13
-                msg.contentMetadata = {'mid': ki6mid}
-                cl.sendMessage(msg)
+		if msg.from_ in admin:
+                	midd = msg.text.replace("Invite:","")
+                	cl.findAndAddContactsByMid(midd)
+                	cl.inviteIntoGroup(msg.to,[midd])
+            elif "Mybot" == msg.text:
+		if msg.from_ in admin:
+                	msg.contentType = 13
+                	msg.contentMetadata = {'mid': kimid}
+                	cl.sendMessage(msg) 
+                	msg.contentType = 13
+                	msg.contentMetadata = {'mid': ki2mid}
+                	cl.sendMessage(msg) 
+                	msg.contentType = 13
+                	msg.contentMetadata = {'mid': ki3mid}
+                	cl.sendMessage(msg) 
+                	msg.contentType = 13
+                	msg.contentMetadata = {'mid': ki4mid}
+                	cl.sendMessage(msg)
+                	msg.contentType = 13
+                	msg.contentMetadata = {'mid': ki5mid}
+                	cl.sendMessage(msg) 
+                	msg.contentType = 13
+                	msg.contentMetadata = {'mid': ki6mid}
+                	cl.sendMessage(msg)
             elif "Kb1" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': kimid}
